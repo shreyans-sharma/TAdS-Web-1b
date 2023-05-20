@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+}
+.maincontainer{
+    height: 100%;
+}
+.introtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    height:20%;
+}
+.introtext .heading{
+    margin-bottom: 0.25%;
+    color: rgb(88, 82, 82);
+}
+.introtext .subheading{
+    color: rgb(1, 1, 62);
+    margin-bottom: 0.25%;
+}
+.introtext .text{
+    color: rgb(88, 82, 82);
+}
+.containers{
+    background-color: rgb(197, 197, 188);
+    height:75%;
+    padding: 1%;
+    display: flex;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:33.33%;
+    height: 100%;
+}
+.card1,.card2,.card3,.card4{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width:96%;
+    height: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 1px 5px 8px;
+}
+.card1:hover{
+    box-shadow: 3px 8px 8px;
+    border-top: solid rgb(2, 79, 104) 8px;
+    cursor: pointer;
+}
+.card2:hover{
+    box-shadow: 3px 8px 8px;
+    border-top: solid #000000 8px;
+    cursor: pointer;
+}
+.card3:hover{
+    box-shadow: 3px 8px 8px;
+    border-top: solid rgb(90, 12, 2) 8px;
+    cursor: pointer;
+}
+.card4:hover{
+    box-shadow: 3px 8px 8px;
+    border-top: solid rgb(1, 32, 85) 8px;
+    cursor: pointer;
+}
+.card2{
+    margin-bottom: 3%;
+}
+.card1{
+    border-top: solid rgb(0, 191, 255) 6px;
+}
+.card2{
+    border-top: solid rgb(255, 191, 0) 6px;
+}
+.card3{
+    border-top: solid rgb(235, 29, 2) 6px;
+}
+.card4{
+    border-top: solid rgb(12, 101, 255) 6px;
+}
+.cardhead{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.cardcontent{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.cardimg img{
+    margin-top: 8%;
+    margin-right: 3%;
+    float: right;
+}
+.textcontainer h1{
+    color: rgb(3, 128, 128);
+}
+.textcontainer h2{
+    color: rgb(160, 244, 5);
+}
+.textcontainer p{
+    color:rgb(74, 72, 72)
+}
